@@ -4,7 +4,9 @@ A responsive web application that displays information about countries using the
 You can search for a country, filter by region, and view detailed information such as population, capital, borders, currencies, and languages.  
 Includes a **Dark Mode toggle** and works smoothly on both desktop and mobile devices.
 
----
+
+## 🔗 Live Demo
+[**View Project on Netlify**](https://geoglance1.netlify.app/)  
 
 ##  Features
 - **Search** for countries by name.
@@ -29,7 +31,6 @@ Includes a **Dark Mode toggle** and works smoothly on both desktop and mobile de
 - **CSS3** (Flexbox, CSS Grid, Responsive Design)
 - **JavaScript (ES6)**
 - **REST Countries API v3**
-- **localStorage** (for theme persistence)
 
 ---
 
@@ -51,5 +52,4 @@ Includes a **Dark Mode toggle** and works smoothly on both desktop and mobile de
 5. Clicking on a country card redirects to `country.html` with its name in the query string.
 6. `country.js` fetches full details for that country and displays them.
 7. **Dark mode toggle** switches the theme and stores preference in `localStorage`.
-
 

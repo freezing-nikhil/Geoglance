@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Where in the world?</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <h1>Where in the world?</h1>
+    <button id="theme-toggle">🌙 Dark Mode</button>
+  </header>
+
+  <section class="controls">
+    <input type="text" id="search" placeholder="Search for a country..." />
+    <select id="region-filter">
+      <option value="">Filter by Region</option>
+      <option value="Africa">Africa</option>
+      <option value="Americas">America</option>
+      <option value="Asia">Asia</option>
+      <option value="Europe">Europe</option>
+      <option value="Oceania">Oceania</option>
+    </select>
+  </section>
+
+  <section id="countries-container"></section>
+</body>
+</html>
